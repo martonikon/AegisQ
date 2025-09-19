@@ -2,8 +2,8 @@ from dotenv import load_dotenv
 import os
 import redis
  
-from worker.listener import RedisWorkerListener
-from worker.dispatcher import TaskDispatcher
+from .listener import RedisWorkerListener
+from .dispatcher import TaskDispatcher
  
 load_dotenv()
  
@@ -19,7 +19,7 @@ def main():
         dispatcher=TaskDispatcher(),
         redis_client=r
     )
-loop.run()
+    listener.run()
  
 if __name__ == "__main__":
     main()

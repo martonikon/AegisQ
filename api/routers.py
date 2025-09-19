@@ -2,7 +2,7 @@ import json
 from uuid import uuid4
 
 from fastapi import APIRouter
-
+from fastapi.responses import JSONResponse
 from api.redis_setup import redis_plug as r
 from api.model import JobPayload
 
