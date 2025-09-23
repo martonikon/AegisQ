@@ -81,8 +81,7 @@ Returns result (e.g. cleaned text)
 | Task        | Description                       |
 |-------------|-----------------------------------|
 | `clean_text`| HTML tag removal + text cleaning |
-| `resize`    | (Coming soon) Image resize        |
-| `string`    | (Example) Simple string echo      |
+
 
 ---
 
