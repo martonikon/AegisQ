@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-redis
-pydantic
-aiofiles
-pytest
-python-dotenv
